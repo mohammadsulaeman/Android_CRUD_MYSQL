@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_ferozi"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activity.MainActivity">
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="120dp"
+        android:src="@drawable/student1"/>
+    <Button
+        android:id="@+id/lihatButton"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/stylebutton2"
+        android:drawableLeft="@drawable/ic_baseline_archive_24"
+        android:text="Lihat Data"
+        />
+    <Button
+        android:id="@+id/tambahButton"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/stylebutton1"
+        android:drawableLeft="@drawable/ic_baseline_add_box_24"
+        android:text="Tambah Data"
+        />
+    <Button
+        android:id="@+id/infoButton"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/stylebutton3"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:text="Informasi"
+        />
+</LinearLayout>

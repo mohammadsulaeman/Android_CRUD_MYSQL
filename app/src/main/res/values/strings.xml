@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Universitas</string>
+    <string name="button_signUp">Tambah</string>
+    <string name="tempatkaryawan">Alamat</string>
+    <string name="tanggalkaryawan">Periode</string>
+    <string name="jender_karyawan">Jenis Kelamin</string>
+    <string name="foto_detail">Foto Mahasiswa</string>
+    <string name="personal_detail">Personal Detail</string>
+    <string name="hint_phone">Nomer Telepon</string>
+    <string name="namakaryawan">Nama Mahasiswa</string>
+    <string name="nikkaryawan">Nim Mahasiswa</string>
+    <string name="hint_email">Email</string>
+    <string name="alamat_detail">Alamat Detail</string>
+    <string name="alamatkaryawan">"Alamat "</string>
+    <string name="lahir_detail">Detail Kampus</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="fakultas">Fakultas</string>
+    <string name="sekolah">Asal Sekolah</string>
+    <string name="phoneempty">Nomor Telepon harus di isi</string>
+    <string name="namaempty">nama harus di isi</string>
+    <string name="nikempty">Nim harus di isi</string>
+    <string name="emailempty">Email harus di isi</string>
+    <string name="jenderempty">Jenis Kelamin harus di isi</string>
+    <string name="alamatempty">Alamat harus di isi</string>
+    <string name="birtdayempty">Periode masuk Harus di isi</string>
+    <string name="jurusanempty">Jurusan harus di isi</string>
+    <string name="fakultasempty">Fakultas harus di isi</string>
+    <string name="instansiempty">Instansi harus di isi</string>
+    <string name="button_update">Update</string>
+    <string name="button_delete">Delete</string>
+    <string name="updateinfo">Apa Anda Yakin Akan Melakukan Proses Updata Data Pada Data Tersebut?</string>
+    <string name="ya">SAYA YAKIN!</string>
+    <string name="no">TIDAK!</string>
+    <string name="deleteinfo">Apa Anda Yakin Akan Melakukan Proses Hapus Data Pada Data Tersebut?</string>
+    <string-array name="jender_karyawan">
+        <item>Pilih Jenis Kelamin</item>
+        <item>Laki-Laki</item>
+        <item>Wanita</item>
+    </string-array>
+</resources>

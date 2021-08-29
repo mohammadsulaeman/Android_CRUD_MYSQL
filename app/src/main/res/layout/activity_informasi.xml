@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:contentPadding="10dp"
+    app:contentPaddingTop="10dp"
+    app:contentPaddingRight="10dp"
+    app:contentPaddingLeft="10dp"
+    app:contentPaddingBottom="10dp"
+    android:contextClickable="true"
+    android:contentDescription="Detail"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    app:cardCornerRadius="35dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginRight="17dp"
+    android:layout_marginTop="17dp"
+    android:outlineSpotShadowColor="@color/light_ferozi"
+    app:cardBackgroundColor="#FFFB"
+    tools:context=".activity.InformasiActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center">
+       <ImageView
+           android:layout_width="210dp"
+           android:layout_height="210dp"
+           android:src="@drawable/ic_baseline_person_24"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Mohammad Sulaeman"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Mohammad Sulaeman Lahir Di Jakarta 23 Juni 1998, Saat Ini Adalah Seorang Mahasiswa di Sebuah Perguruan Swasta di Universitas Mercu Buana Jurusan Teknik Informatika. Saat Ini Sedang Belajar Pembuatan Pemrograman Mobile dan Website"
+           android:textAlignment="center"
+           android:layout_marginTop="10dp"/>
+   </LinearLayout>
+</androidx.cardview.widget.CardView>
